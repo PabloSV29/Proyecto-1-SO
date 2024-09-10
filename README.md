@@ -19,7 +19,7 @@ Ingresar la siguiente línea de código en el directorio donde se encuentre el a
 
 
     ```bash
-    gcc -o minishell minishell.c -pethreads
+    gcc -o minishell minishell.c -pthreads
     ```
 
 Una vez completados estos pasos, se generará 1 ejecutable:
