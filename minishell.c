@@ -263,12 +263,12 @@ void pipes(char **comandos)
             char *a[1024];
             parsear(comandos[i], a);
 
-            execvp(a[0], a);
-            // En caso de que el comando no existe
-            // if (execvp(a[0], a) < 0)
-            // {
-            //     printf("No existe ese comando \n");
-            // }
+            // execvp(a[0], a);
+            //  En caso de que el comando no existe
+            if (execvp(a[0], a) < 0)
+            {
+                printf("No existe ese comando \n");
+            }
             // Si pasa hubo un error en el comando
             // perror("Error al ejecutar el comando \n");
             // exit(1);
