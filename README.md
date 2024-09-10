@@ -27,7 +27,7 @@ Una vez completados estos pasos, se generará 1 ejecutable:
 El ejecutable minishell, el cual contiene el intérprete de comandos. Se puede ejecutar usando:
 
     ```bash
-    ./minishell}]]
+    ./minishell
     ```
 
 Los comandos disponibles y más información se puede encontrar en el PDF adjunto.
